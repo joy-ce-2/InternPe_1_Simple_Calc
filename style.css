@@ -1,0 +1,55 @@
+body{
+    background-color: 	#FFB6C1;
+    text-align: center;
+}
+
+h1{
+    margin: 40px;
+}
+
+.Calculator{
+    background-color:  #002D62;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border-style: groove;
+    width: 20%;
+    height: 400px;
+    margin-left: 40%;
+    box-shadow: -8px -8px black,5px 5px 15px rgba(0,0,0,0.2);
+}
+
+.Calculator form div input{
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    border-radius: 10px;
+    border-style: initial;
+    cursor: pointer;
+    
+}
+
+form input[type="button"]:hover{
+    background-color: #FF1493;
+}
+
+#equal{
+    width: 110px;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin:10px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+#operators:hover{
+    background-color: #002D62;
+
+}
